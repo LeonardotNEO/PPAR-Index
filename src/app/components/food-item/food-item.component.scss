@@ -1,0 +1,33 @@
+.food {
+  background-color: rgb(49, 46, 46);
+  border-radius: 3px;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+  color: white;
+  display: grid;
+  grid-auto-flow: Column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+
+  .title {
+    width: 250px;
+  }
+  div {
+    display: grid;
+    justify-content: start;
+    width: 75px;
+  }
+
+  .toggle {
+    padding: 0px;
+    background-color: white;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

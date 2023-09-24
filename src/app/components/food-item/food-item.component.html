@@ -1,0 +1,33 @@
+<div class="food">
+  <div class="title">{{ food["Food Item"] }}</div>
+  <div>{{ food["Fat"] }}</div>
+  <div>{{ food["SatFa"] }}</div>
+  <div>
+    <div *ngIf="food['SatFaPer']">
+      {{ food["SatFaPer"] }}
+    </div>
+  </div>
+  <div>{{ food["MuFa"] }}</div>
+  <div>
+    <div *ngIf="food['MuFaPer']">
+      {{ food["MuFaPer"] }}
+    </div>
+  </div>
+  <div>{{ food["PuFa"] }}</div>
+  <div>
+    <div *ngIf="food['PuFaPer']">
+      {{ food["PuFaPer"] }}
+    </div>
+  </div>
+  <div>{{ food["PPARIndex"] }}</div>
+  <div>
+    <div
+      *ngIf="setValues"
+      class="toggle"
+      (click)="toggleFood(food)"
+      [style.background-color]="isToggled(food) ? 'red' : 'green'"
+    >
+      Toggle
+    </div>
+  </div>
+</div>
