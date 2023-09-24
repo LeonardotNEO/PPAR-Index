@@ -6,6 +6,7 @@ Search for the foods you want to check the PPAR-Index of and compare to other fo
 
 The PPAR-Index for foods are weighted according to this graph: 
 ![image](https://github.com/LeonardotNEO/PPAR-Index/assets/52072762/11b55910-383f-4b21-8fcf-760340a09d74)
+Source: https://www.youtube.com/watch?v=f1atTGlu2zQ&t=7s&ab_channel=FireInABottle
 
 For example:
 
