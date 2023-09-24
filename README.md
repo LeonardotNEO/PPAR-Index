@@ -1,27 +1,24 @@
-# Pparindex
+# PPAR-Index
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+Search for the foods you want to check the PPAR-Index of and compare to other foods. Note that this is not 100% accurate, but should be a simple way to compare different foods and the foods effect on the PPAR transcriptional activity.
 
-## Development server
+The PPAR-Index for foods are weighted according to this graph: 
+![image](https://github.com/LeonardotNEO/PPAR-Index/assets/52072762/11b55910-383f-4b21-8fcf-760340a09d74)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+For example:
 
-## Code scaffolding
+Fatty acids that pull the PPAR-Index up:
+C12:0, weight of 1;
+C16:1, weight of 1;
+C18:1, weight of 1;
+C18:3n-3, weight of 1.5;
+C18:2n-6, weight of 0.25;
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Fatty acids that pulls the PPAR-Index down:
+C14:0, weight of 0.25;
+C16:0, weight of 0.5;
+C18:0, weight of 0.25;
 
-## Build
+Preview:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://github.com/LeonardotNEO/PPAR-Index/assets/52072762/4070cc77-a163-45bb-a482-d384150eee89)
