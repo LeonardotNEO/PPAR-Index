@@ -11,16 +11,16 @@ Source: https://www.youtube.com/watch?v=f1atTGlu2zQ&t=7s&ab_channel=FireInABottl
 For example:
 
 Fatty acids that pull the PPAR-Index up:
-C12:0, weight of 1;
-C16:1, weight of 1;
-C18:1, weight of 1;
-C18:3n-3, weight of 1.5;
-C18:2n-6, weight of 0.25;
+- C12:0, weight of 1;
+- C16:1, weight of 1;
+- C18:1, weight of 1;
+- C18:3n-3, weight of 1.5;
+- C18:2n-6, weight of 0.25;
 
 Fatty acids that pulls the PPAR-Index down:
-C14:0, weight of 0.25;
-C16:0, weight of 0.5;
-C18:0, weight of 0.25;
+- C14:0, weight of 0.25;
+- C16:0, weight of 0.5;
+- C18:0, weight of 0.25;
 
 Preview:
 
